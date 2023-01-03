@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route,Switch } from 'react-router-dom'
-import Home from './component/Home';
-import Quiz from './component/Quiz'
+// import Home from './component/Home';
+// import Quiz from './component/Quiz'
 import './App.css'
 
 
