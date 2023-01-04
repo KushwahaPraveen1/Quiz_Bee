@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import Home from './Home';
+// import Home from './Home';
 import { QuizData } from './QuizData'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import logo from './quizee-1 (1).png'
 
 const Quiz = (name) => {
 console.log({name});
-    <p>{name}</p>
+    // <p>{name}</p>
     const [number, setNumber] = useState(0);
     const [disable, setDisable] = useState(false);
    const [result,setResult] =useState(0)
@@ -50,13 +51,8 @@ console.log({name});
         progress: undefined,
         });
 
-
-
-
-
-
-
-    const checkAnswer=(check)=>{
+     
+        const checkAnswer=(check)=>{
         let num = number;
       
         if (num < 4) {
@@ -93,8 +89,7 @@ console.log({name});
     return (
         <>
             <div className="quiz">
-         
-
+         {/* <img src={logo}/> */}
    
         <div className="card">
            {
@@ -111,7 +106,7 @@ console.log({name});
                 <div className="ans">
           
                     <div className='main'>
-                    <button type="button" className="btn btn-success " onClick={prevQue}><i className="fa fa-arrow-left" aria-hidden="true"></i></button>
+                    <button type="button" className="prev_ btn btn-success " onClick={prevQue}><i className="fa fa-arrow-left" aria-hidden="true"></i></button>
                                        
                                 <div>{
                         
@@ -132,7 +127,7 @@ console.log({name});
 
                     }
                     </div>
-                    <button type="button" className="btn btn-success " onClick={nextQue}><i className="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    <button type="button" className="next_ btn btn-success " onClick={nextQue}><i className="fa fa-arrow-right" aria-hidden="true"></i></button>
             
                                           </div>
 

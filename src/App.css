@@ -62,8 +62,7 @@ justify-content: center;
 align-items: center;
 color: #fff; 
  box-shadow: #525154;
- margin-top: 50%;
- /* margin-top: 0px; */
+ margin-top: 100px;
 }
 .quiz .btn{
   
@@ -76,9 +75,13 @@ color: #fff;
   background-color: #d6a927;
   /* width: 50px; */
 }
-.btn-success:hover{
+.next_:hover{
   background-color: #58be26;
 }
+.prev_:hover{
+  background-color: #be2626;
+}
+
 .box{
   display: flex;
   justify-content: center;
@@ -151,6 +154,21 @@ margin-top: 30px;
       margin-top: 20px;
     }
   
+    }
+
+    @media (max-width: 420px) {
+      .card{
+        width: 270px;
+        }
+        .btn-block{
+          width: 250px;
+        }
+        .que{
+          width: 250px;
+          margin-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
     }
 
 
