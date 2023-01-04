@@ -3,11 +3,9 @@ import React, { useState } from 'react'
 import { QuizData } from './QuizData'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import logo from './quizee-1 (1).png'
+// import logo from './quizee-1 (1).png'
 
-const Quiz = (name) => {
-console.log({name});
-    // <p>{name}</p>
+const Quiz = () => {
     const [number, setNumber] = useState(0);
     const [disable, setDisable] = useState(false);
    const [result,setResult] =useState(0)

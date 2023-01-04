@@ -6,7 +6,7 @@ export const QuizData=[
             {ans:"User-Interface Framework",isCorrect:true},
             {ans:"Both A and B",isCorrect:false},
             {ans:"None of the Above",isCorrect:false}
-        ]
+        ],
     },
     {
         question:"What of the following is used in React.js to increase performance ?",

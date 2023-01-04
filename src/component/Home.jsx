@@ -1,19 +1,19 @@
 import React  from 'react'
 import { NavLink } from 'react-router-dom'
-import { useState } from 'react'
-import Quiz from './Quiz'
+// import { useState } from 'react'
+// import Quiz from './Quiz'
 
 const Home = () => {
-    const [inputData, setInputData] = useState("")
+    // const [inputData, setInputData] = useState("")
 
     const startQuiz=()=>{
 
 
     }
-    const InputData1 = (event) => {
-        console.log("value", event.target.value)
-         setInputData(event.target.value)
-       }
+    // const InputData1 = (event) => {
+    //     console.log("value", event.target.value)
+    //      setInputData(event.target.value)
+    //    }
       
  
     
